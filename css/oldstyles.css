@@ -294,9 +294,7 @@ width: calc((100% - 72px) / 4);
 .name{
     margin-bottom: 8px;
 }
-.product-name{
-    margin-bottom: 8px;
-}
+
 .employee-social-list{
     display: flex;
     gap: 24px;
@@ -322,6 +320,10 @@ width: calc((100% - 72px) / 4);
 /* =======Team========= */
 
 /* =======Portfolio========= */
+.product-name {
+    margin-bottom: 8px;
+}
+
 .section-portofolio{
     padding-top: 120px;
     padding-bottom: 120px;
