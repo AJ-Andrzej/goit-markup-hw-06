@@ -325,8 +325,8 @@ width: calc((100% - 72px) / 4);
 }
 
 .section-portofolio{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .portfolio-list{
     display: flex;
