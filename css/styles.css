@@ -572,6 +572,7 @@ screen and (min-device-pixel-ratio: 2) {
     margin-right: auto;
 }
 .team-list-item {
+    width: 264px;
     text-align: center;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
