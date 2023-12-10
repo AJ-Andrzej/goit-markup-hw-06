@@ -84,14 +84,6 @@ body {
     }
 }
 
-h3 {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
 .section-name {
     color: #2E2F42;
     text-align: center;
@@ -478,3 +470,80 @@ screen and (min-device-pixel-ratio: 2),
 }
 /* =======/Desktop========= */
 /* =======/Effective Solutions========= */
+
+/* =======Strengths========= */
+.icon-box{
+    display: none;
+}
+.section-strengths {
+    padding: 96px 0
+}
+
+.strenghts-list{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+
+.strengths-name {
+    color:#2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+/* =======Strengths-Tablet========= */
+@media screen and (min-width: 768px) {
+.strengths-name{
+    text-align: left;
+}
+.strenghts-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+}
+.strenghts-list-item{
+    width: calc((100% - 24px) / 2);
+}
+}
+/* =======/Strengths-Tablet========= */
+/* =======Strengths-Desktop========= */
+@media screen and (min-width: 1158px) {
+    .icon-box{
+        display: flex;
+    }
+    .section-strengths {
+        padding: 120px 0
+        }
+    
+    .strenghts-list {
+        display: flex;
+        gap: 24px;
+        }
+    
+    .strenghts-list-item {
+        width: calc((100% - 72px) / 4);
+        }
+    .icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background:#F4F4FD;
+    margin-bottom: 8px;
+}
+.strenghts-list-icon{
+    margin: 24px 100px;
+}
+}
+
+/* =======/Strengths-Desktop========= */
+/* =======/Strengths========= */
