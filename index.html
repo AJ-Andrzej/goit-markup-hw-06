@@ -466,8 +466,8 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/cashless-desktop.jpg        1x,
-                      ./images/cashless-desktop@2x.jpg.jpg 2x
+                      ./images/cashless-desktop.jpg    1x,
+                      ./images/cashless-desktop@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
                   />
@@ -783,7 +783,7 @@
     <!-- /Footer -->
 
     <!-- Modal window -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg
@@ -902,8 +902,11 @@
                   <use href="./images/icons.svg#icon-checkmark"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="color-privacy" href="">Privacy Policy</a>
+              <span class="chekbox-text"
+                >I accept the terms and conditions of the
+
+                <a class="color-privacy" href="">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="order-form-submit-btn" type="submit">Send</button>
@@ -915,7 +918,7 @@
 
     <!-- Mobile menu -->
     <div class="mobile-menu-wraper">
-      <div class="container">
+      <div class="container mobile-menu-conteiner">
         <button class="mobile-menu-close-btn" type="button">
           <svg
             class="mobile-close-menu-icone"
@@ -943,76 +946,77 @@
             </li>
           </ul>
         </nav>
-
-        <address class="mobile-contacts">
-          <ul class="list mobile-contacts-list">
-            <li class="mobile-contacts-list-item">
-              <a
-                class="link mobile-contact-link phone-color"
-                href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li class="mobile-contacts-list-item">
-              <a
-                class="link mobile-contact-link"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-        </address>
-        <div class="menu-social-wraper">
-          <ul class="list mobile-menu-social-list">
-            <li class="mobile-menu-social-list-item">
-              <a class="link mobile-menu-social-list-link" href="">
-                <svg
-                  class="mobile-menu-social-icon"
-                  width="16"
-                  height="16"
-                  aria-label="instagram icon"
+        <div class="contact">
+          <address class="mobile-contacts">
+            <ul class="list mobile-contacts-list">
+              <li class="mobile-contacts-list-item">
+                <a
+                  class="link mobile-contact-link phone-color"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
                 >
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-menu-social-list-item">
-              <a class="link mobile-menu-social-list-link" href="">
-                <svg
-                  class="mobile-menu-social-icon"
-                  width="16"
-                  height="16"
-                  aria-label="twiter icon"
+              </li>
+              <li class="mobile-contacts-list-item">
+                <a
+                  class="link mobile-contact-link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
                 >
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-menu-social-list-item">
-              <a class="link mobile-menu-social-list-link" href="">
-                <svg
-                  class="mobile-menu-social-icon"
-                  width="16"
-                  height="16"
-                  aria-label="facebook icon"
-                >
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-menu-social-list-item">
-              <a class="link mobile-menu-social-list-link" href="">
-                <svg
-                  class="mobile-menu-social-icon"
-                  width="16"
-                  height="16"
-                  aria-label="Linkedin icon"
-                >
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </address>
+          <div class="menu-social-wraper">
+            <ul class="list mobile-menu-social-list">
+              <li class="mobile-menu-social-list-item">
+                <a class="link mobile-menu-social-list-link" href="">
+                  <svg
+                    class="mobile-menu-social-icon"
+                    width="16"
+                    height="16"
+                    aria-label="instagram icon"
+                  >
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-social-list-item">
+                <a class="link mobile-menu-social-list-link" href="">
+                  <svg
+                    class="mobile-menu-social-icon"
+                    width="16"
+                    height="16"
+                    aria-label="twiter icon"
+                  >
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-social-list-item">
+                <a class="link mobile-menu-social-list-link" href="">
+                  <svg
+                    class="mobile-menu-social-icon"
+                    width="16"
+                    height="16"
+                    aria-label="facebook icon"
+                  >
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-social-list-item">
+                <a class="link mobile-menu-social-list-link" href="">
+                  <svg
+                    class="mobile-menu-social-icon"
+                    width="16"
+                    height="16"
+                    aria-label="Linkedin icon"
+                  >
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
